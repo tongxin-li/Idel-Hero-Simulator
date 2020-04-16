@@ -1,10 +1,12 @@
 import numpy as np
 import random
+
 """"
 Version: Monopoly-01
-A simple monopoly simulator for the fucking Easter event of Idel Hero
 
-Developer: Tony@一只小马甲
+Description:
+A simple monopoly simulator for the Easter event of Idel Hero
+
 """
 
 class Maze:
@@ -98,6 +100,7 @@ for i in range(num_Monte_Carlo):
     # Define policies:
     # Policy-A: use lucky dice when the imp is close to the lucky hut
     # Policy-B: use lucky dice when the imp is close to the wishing hut
+    # Note that the two polices are just toy examples. Feel free to design your strategies
 
     # Implement Policy-A:
 
